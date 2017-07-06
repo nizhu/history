@@ -6,7 +6,8 @@ const QuotaExceededErrors = {
 }
 
 const SecurityErrors = {
-  SecurityError: true
+  SecurityError: true,
+  DOMException: true
 }
 
 const KeyPrefix = '@@History/'
